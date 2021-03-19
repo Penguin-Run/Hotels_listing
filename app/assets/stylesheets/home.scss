@@ -1,3 +1,11 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js");
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+h1 {
+  font-family: 'Merriweather', sans-serif;
+}
