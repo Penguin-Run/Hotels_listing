@@ -1,5 +1,12 @@
-<h1>Список доступных отелей</h1>
+<!--css from stylesheets linking-->
+<%= stylesheet_link_tag "home", media: "all", "data-turbolinks-track" => "reload" %>
+<h1><%= t("hotels_list") %></h1>
 
+<!--internationalization-->
+<%= link_to "ENG", { locale: :en }, class: "" %>
+<%= link_to "RUS", { locale: :ru }, class: "" %>
+
+<!--hotels list-->
 <div class="row">
   <%# @hotels_list.each do |hotel| %>
     <%= render partial: "hotel_card", collection: @hotels_list, as: :hotel %>
