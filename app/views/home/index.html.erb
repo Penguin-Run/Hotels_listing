@@ -1,7 +1,7 @@
 <h1>Список доступных отелей</h1>
 
 <div class="row">
-  <%= render "hotel_card" %>
-  <%= render 'hotel_card' %>
-
+  <%# @hotels_list.each do |hotel| %>
+    <%= render partial: "hotel_card", collection: @hotels_list, as: :hotel %>
+  <%# end %>
 </div>

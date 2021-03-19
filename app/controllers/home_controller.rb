@@ -1,4 +1,5 @@
 class HomeController < ApplicationController
   def index
-  end
+    @hotels_list = Hotel.all
+    end
 end
